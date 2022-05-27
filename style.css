@@ -75,7 +75,6 @@
                 #home h1 {
                     padding-top: 188px;
                     width: 595px;
-                    font-family: 'DM Serif Display';
                     font-style: normal;
                     font-weight: 400;
                     font-size: 80px;
@@ -131,7 +130,6 @@
                 }
                 
                 .text-box h1 {
-                    font-family: 'DM Serif Display';
                     font-style: normal;
                     font-weight: 400;
                     font-size: 25px;
@@ -187,7 +185,6 @@
                 
                 .l-about h1 {
                     width: 450px;
-                    font-family: 'DM Serif Display';
                     font-style: normal;
                     font-weight: 400;
                     font-size: 50px;
@@ -261,7 +258,6 @@
                 
                 .about-bottom h1 {
                     width: 479px;
-                    font-family: 'DM Serif Display';
                     font-style: normal;
                     font-weight: 400;
                     font-size: 45px;
@@ -305,7 +301,6 @@
                 }
                 
                 .info span:nth-child(1) {
-                    font-family: 'DM Serif Display';
                     font-style: normal;
                     font-weight: 400;
                     font-size: 25px;
@@ -316,7 +311,6 @@
                 }
                 
                 .info span:nth-child(2) {
-                    font-family: 'Jost';
                     font-style: normal;
                     font-weight: 400;
                     font-size: 18px;
@@ -337,7 +331,6 @@
                 }
                 
                 .feedback {
-                    font-family: 'Jost';
                     font-style: normal;
                     font-weight: 400;
                     font-size: 20px;
@@ -373,7 +366,6 @@
                 }
                 
                 .heading-text h1 {
-                    font-family: 'DM Serif Display';
                     font-style: normal;
                     font-weight: 400;
                     font-size: 47px;
@@ -386,7 +378,6 @@
                 
                 .heading-text p {
                     width: 786px;
-                    font-family: 'Jost';
                     font-style: normal;
                     font-weight: 400;
                     font-size: 22px;
@@ -456,7 +447,6 @@
                 }
                 
                 .ad-data .name {
-                    font-family: 'DM Serif Display';
                     font-style: normal;
                     font-weight: 400;
                     font-size: 24px;
@@ -467,7 +457,6 @@
                 }
                 
                 .ad-data .type {
-                    font-family: 'Jost';
                     font-style: normal;
                     font-weight: 400;
                     font-size: 22px;
@@ -485,4 +474,319 @@
                     justify-content: center;
                     background: #F4F0EC;
                     border-radius: 100px;
+                }
+                
+                .shortinfo {
+                    width: 100%;
+                    height: 475px;
+                    margin-top: 100px;
+                    background: #F4F0EC;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                
+                .vline {
+                    width: 1px;
+                    height: 195px;
+                    background: #CDA274;
+                }
+                
+                .year,
+                .pnum,
+                .apnum,
+                .customers {
+                    width: 288px;
+                    height: 195px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                }
+                
+                .year h1,
+                .pnum h1,
+                .apnum h1,
+                .customers h1 {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 85px;
+                    line-height: 128px;
+                    /* identical to box height, or 150% */
+                    text-align: center;
+                    letter-spacing: 1.7px;
+                    color: #CDA274;
+                }
+                
+                .year p,
+                .pnum p,
+                .apnum p,
+                .customers p {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 22px;
+                    line-height: 33px;
+                    /* identical to box height, or 150% */
+                    text-align: center;
+                    letter-spacing: 0.22px;
+                    color: #4D5053;
+                }
+                
+                .blogs {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 100px;
+                }
+                
+                .heading-text {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                }
+                
+                .heading-text h1 {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 47px;
+                    line-height: 62px;
+                    /* identical to box height, or 133% */
+                    text-align: center;
+                    letter-spacing: 0.22px;
+                    color: #292F36;
+                }
+                
+                .heading-text p {
+                    width: 786px;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 22px;
+                    line-height: 33px;
+                    /* identical to box height, or 150% */
+                    text-align: center;
+                    letter-spacing: 0.22px;
+                    color: #4D5053;
+                }
+                
+                .blogs_examples {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    margin-top: 71px;
+                }
+                
+                .element {
+                    width: 387px;
+                    height: 515px;
+                    padding: 21px;
+                    border: 1px solid #E7E7E7;
+                    border-radius: 62px;
+                    display: flex;
+                    flex-direction: column;
+                    margin: 20px 10px;
+                }
+                
+                .element .img {
+                    width: 345px;
+                    height: 296px;
+                    background-image: url(./images/IMAGEblog1.png);
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    position: relative;
+                }
+                
+                .element .img p {
+                    width: 125px;
+                    height: 44px;
+                    position: absolute;
+                    background: #FFFFFF;
+                    border-radius: 8px 8px 8px 0px;
+                    top: 223px;
+                    left: 24px;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    /* identical to box height, or 150% */
+                    letter-spacing: 0.22px;
+                    padding: 9px 10px 11px 10px;
+                }
+                
+                .t_info h4 {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 25px;
+                    line-height: 35px;
+                    /* or 140% */
+                    letter-spacing: 0.5px;
+                    color: #292F36;
+                    margin-top: 15px;
+                }
+                
+                .moreinfo {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-top: 20px;
+                }
+                
+                .moreinfo p {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    /* identical to box height, or 150% */
+                    letter-spacing: 0.22px;
+                    color: #4D5053;
+                }
+                
+                .moreinfo .icon {
+                    width: 52px;
+                    height: 52px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background: #F4F0EC;
+                    border-radius: 100px;
+                }
+                
+                .contact {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    height: 414px;
+                    width: 1200px;
+                    background-color: #292F36;
+                    margin: 100px auto 0 auto;
+                    border-radius: 70px;
+                }
+                
+                .contact h1 {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 50px;
+                    line-height: 75px;
+                    /* identical to box height, or 150% */
+                    text-align: center;
+                    letter-spacing: 0.22px;
+                    color: #FFFFFF;
+                }
+                
+                .contact p {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 22px;
+                    line-height: 33px;
+                    /* identical to box height, or 150% */
+                    text-align: center;
+                    letter-spacing: 0.22px;
+                    color: #FFFFFF;
+                }
+                
+                .contact .btn {
+                    background: #CDA274;
+                    border: 2px solid #CDA274;
+                    box-shadow: 1px 0px 18px rgba(0, 0, 0, 0.2);
+                    border-radius: 18px;
+                }
+                
+                .footer {
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    margin-top: 100px;
+                    height: 608px;
+                }
+                
+                .up {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: flex-start;
+                    height: 504px;
+                }
+                
+                .up .logo {
+                    display: flex;
+                }
+                
+                .up .col {
+                    padding-top: 29px;
+                }
+                
+                .up .col p {
+                    width: 326px;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 22px;
+                    line-height: 33px;
+                    /* or 150% */
+                    letter-spacing: 0.22px;
+                    color: #4D5053;
+                    margin-top: 25px;
+                }
+                
+                .up .icons {
+                    display: flex;
+                    width: 240px;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-top: 31px;
+                }
+                
+                .col ul {
+                    display: flex;
+                    flex-direction: column;
+                }
+                
+                .col .active {
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 25px;
+                    line-height: 38px;
+                    /* identical to box height, or 150% */
+                    letter-spacing: 0.22px;
+                    color: #292F36;
+                }
+                
+                .col li:not(.activer) {
+                    margin-top: 30px;
+                }
+                
+                .col li a {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 33px;
+                    /* identical to box height, or 150% */
+                    letter-spacing: 0.22px;
+                    color: #4D5053;
+                }
+                
+                .col .separated {
+                    width: 321px;
+                }
+                
+                .down {
+                    width: 100%;
+                    height: 104px;
+                    border-top: 1px solid #F5F5F5;
+                    ;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 22px;
+                    line-height: 33px;
+                    /* identical to box height, or 150% */
+                    text-align: center;
+                    letter-spacing: 0.22px;
+                    color: #4D5053;
+                }
+                
+                .down a {
+                    color: #CDA274;
                 }
